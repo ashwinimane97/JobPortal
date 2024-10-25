@@ -1,1 +1,1 @@
-# JobPortal
+# JobPortal application

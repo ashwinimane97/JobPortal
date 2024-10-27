@@ -18,3 +18,9 @@ jobs:
       # Step 2: Print "Hello World" to the console
       - name: Print Hello World
         run: echo "Hello World"
+
+      - name: Run inline shell script
+        run: |
+          echo "Hello from the inline shell script!"
+          echo "Listing files in the current directory:" > /home/ashwini/asheini.txt
+                  

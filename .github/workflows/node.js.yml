@@ -28,3 +28,5 @@ jobs:
         cd backend
         touch .env
         echo "Hello World" > .env
+    - name: Restart Server
+      run: pm2 restart JobPortalBackend
